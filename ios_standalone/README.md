@@ -9,7 +9,7 @@ Through the use of the "add to home screen" option in Safari, iOS has allowed us
 Over the last 4 years, this capability has seem some uptake in the wild. Through JavaScript libraries, [such as the one created by Matteo Spinelli](http://cubiq.org/add-to-home-screen), iPhone users occasionally encounter a custom pop-up banner suggesting that they "install" the website they are viewing to the home screen.
 
 ![Various examples of the add to home screen popup thingy](images/add_to_homescreen.jpg)
-<figcaption>It's not uncommon to find web applications that ask the user to "install this web app on your iPhone: tap `<icon>` and then **add to homescreen**" on the iPhone.</figcaption>
+It's not uncommon to find web applications that ask the user to "install this web app on your iPhone: tap `<icon>` and then **add to homescreen**" on the iPhone.
 
 There are some obvious issues with this pop-up banner approach: not only is it inconsistent across web applications, but it requires developers to both "sniff" for the browser, and then tie a <abbr title="user interface">UI</abbr> component of their own website to that of Safari. 
 
@@ -187,7 +187,7 @@ Some sites returned a `HTTP 403 Forbidden` or simply would refused to connect. T
 Some sites did not provide enough information to test all three aspects (icons, navigation, mobile). For example, [webcamtoy.com](http://webcamtoy.com) contains an icon, is mobile, but doesn't provide any interaction or navigation: it tells the user to go to the desktop site instead. As such, it was excluded. 
 
 ![](images/webcamtoy.jpg)
-<figcaption>[webcamtoy.com](http://webcamtoy.com) tells the user to load the desktop site instead.</figcaption>
+[webcamtoy.com](http://webcamtoy.com) tells the user to load the desktop site instead.
 
 Some sites declared themselves as standalone through markup, but when loaded in Safari redirect to a mobile version that excludes the required markup. Some examples of sites that do this:
 
